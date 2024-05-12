@@ -1,0 +1,15 @@
+.box{
+    display: inline-block;
+    background-color: red;
+    height: 25px;
+    width: 50px;
+    border:1px solid black;
+    margin-right: 5px;
+    text-align: center;
+    color: white;
+
+}
+
+.box:nth-child(even){
+    display: none;
+}
